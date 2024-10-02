@@ -1,5 +1,3 @@
-// import React from "react";
-
 import { Link, useRouteError } from "react-router-dom";
 import Wrapper from "../assets/wrappers/ErrorPage";
 import img from "../assets/images/not-found.svg";

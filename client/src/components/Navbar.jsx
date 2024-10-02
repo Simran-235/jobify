@@ -1,5 +1,3 @@
-// import React from 'react'
-
 import Wrapper from "../assets/wrappers/Navbar";
 import { FaAlignLeft } from "react-icons/fa";
 import Logo from "./Logo";
@@ -9,7 +7,6 @@ import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const { toggleSidebar } = useDashboardContext();
-
   return (
     <Wrapper>
       <div className="nav-center">
@@ -28,5 +25,4 @@ const Navbar = () => {
     </Wrapper>
   );
 };
-
 export default Navbar;
